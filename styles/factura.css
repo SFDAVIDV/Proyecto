@@ -1,0 +1,45 @@
+body {
+  background: #264d7e;
+}
+
+.cont {
+  display: inline-block;
+  box-sizing: border-box;
+  background: #456fa4;
+  border: none;
+  border-radius: 20px;
+  margin: 100px 0 0 400px;
+  padding: 10px;
+  color: #fff;
+}
+
+.datos_cont {
+  color: #333;
+  border: solid 2px #fff;
+  background: #fff;
+  padding: 10px;
+  margin: 20px 0 0 13%;
+  width: 230px;
+  height: 270px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 225px;
+  border: none;
+  border-radius: 10px;
+  margin: 20px 0 0 18%;
+}
+
+.btn_factura {
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover,
+.btn_factura:hover {
+  cursor: pointer;
+}

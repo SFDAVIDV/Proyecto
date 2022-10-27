@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery</title>
+    <link rel="stylesheet" href="./styles/telefonista.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="logo_empresa.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="titulo_cont">
+      <H1 class="titulo">Todo delivery</H1>
+    </section>
+    <section class="logo_cont">
+    <img class="img" src="logo_empresa.png"></section>
+    <form id="form">
+      <section class="cont">
+        <article class="title_cont">
+        <h1 class="title">Pedido</h1></article>
+        <article class="article-cont">
+          <label
+            >Numero de pepido <input type="number" name="num_pedido" /></label
+          ><br />
+          <label for="pedido"
+            >1. Pedido comida
+            <select name="pedido" id="pedido">
+              <option value="Pizza de jamon">Pizza de jamon</option>
+              <option value="Pizza de peperonii">Pizza de peperoni</option>
+              <option value="Pizza de queso">Pizza de queso</option>
+              <option value="Hambuergesa clasica">Hambuergesa clasica</option>
+              <option value="Hambuergesa doble carne">Hambuergesa doble carne</option>
+              <option value="Hambuergesa de pollo">Hambuergesa de pollo</option>
+              <option value="Torta mixta">Torta mixta</option>
+              <option value="Torta de pollo">Torta de pollo</option>
+              <option value="Torta de carne">Torta de carne</option>
+              <option value="Pollo en salsa">Pollo en salsa</option>
+              <option value="Costillas de carne con tomate">Costillas de carne con tomate</option>
+              <option value="Lasaña">Lasaña</option>
+            </select></label
+            >
+            <label>Cantidad <input type="number" name="cantidad_com_1" class="cantidad"></label>
+            <label>1. Precio <input type="number" name="precio_com_1" step="0.01" class="precio"></label>
+            <label
+          >1. Bebida
+          <select name="bebida">
+            <option value="Nada">Nada</option>
+            <option value="Jugo de naranja">Jugo de naranja</option>
+              <option value="Jugo de Zanahoria y Naranja">
+                Jugo de Zanahoria y Naranja
+              </option>
+              <option value="Jugo de Zanahoria">Jugo de Zanahoria</option>
+              <option value="Coca-Cola">Coca-Cola</option>
+              <option value="Fanta">Fanta</option>
+              <option value="Seven Up">Seven Up</option>
+              <option value="Café">Café</option>
+              <option value="Té">Té</option>
+            </select>
+            <label>Cantidad <input type="number" name="cantidad_beb_1" class="cantidad"></label>
+            <label>1. Precio <input type="number" name="precio_beb_1" step="0.01" class="precio"></label>
+          </label>
+          <br />
+          <label for="pedido"
+          >2. Pedido comida
+          <select name="pedido_2" id="pedido">
+            <option value="Nada">Nada</option>
+            <option value="Pizza Jamon">Pizza de jamon</option>
+              <option value="Pizza Peperoni">Pizza de peperoni</option>
+              <option value="Pizza Queso">Pizza de queso</option>
+              <option value=" Hamburguesa clasica">Hambuergesa clasica</option>
+              <option value="Hambuergesa doble carne">Hambuergesa doble carne</option>
+              <option value="Hambuergesa de pollo">Hambuergesa de pollo</option>
+              <option value="Torta mixta">Torta mixta</option>
+              <option value="Torta de pollo">Torta de pollo</option>
+              <option value="Torta de carne">Torta de carne</option>
+              <option value="Pollo en salsa">Pollo en salsa</option>
+              <option value="Costillas de carne con tomate">Costillas de carne con tomate</option>
+              <option value="Lasaña">Lasaña</option>
+            </select></label
+            >
+            <label>Cantidad <input type="number" name="cantidad_com_2" class="cantidad"></label>
+            <label>2. Precio <input type="number" name="precio_com_2" step="0.01" class="precio"></label>
+            <label
+            >2. Bebida
+            <select name="bebida_2">
+              <option value="Nada">Nada</option>
+              <option value="naranja">Jugo de naranja</option>
+              <option value="zanahoria/naranja">
+                Jugo de Zanahoria y Naranja
+              </option>
+              <option value="zanahoria">Jugo de Zanahoria</option>
+              <option value="coca-cola">Coca-Cola</option>
+              <option value="fanta">Fanta</option>
+              <option value="seven-up">Seven Up</option>
+              <option value="cafe">Café</option>
+              <option value="te">Té</option>
+            </select>
+          </label>
+          <label>Cantidad <input type="number" name="cantidad_beb_2" class="cantidad"></label>
+          <label>2. Precio <input type="number" name="precio_beb_2" step="0.01" class="precio"></label>
+          <br />
+          <label for="pedido"
+          >3. Pedido comida
+          <select name="pedido_3" id="pedido">
+            <option value="Nada">Nada</option>
+            <option value="Pizza de jamon">Pizza de jamon</option>
+            <option value="Pizza de peperoni">Pizza de peperoni</option>
+            <option value="Pizza de queso">Pizza de queso</option>
+              <option value="Hambuergesa clasica">Hambuergesa clasica</option>
+              <option value="Hambuergesa doble carne">Hambuergesa doble carne</option>
+              <option value="Hambuergesa de pollo">Hambuergesa de pollo</option>
+              <option value="Torta mixta">Torta mixta</option>
+              <option value="Torta de pollo">Torta de pollo</option>
+              <option value="Torta de carne">Torta de carne</option>
+              <option value="Pollo en salsa">Pollo en salsa</option>
+              <option value="Costillas de carne con tomate">Costillas de carne con tomate</option>
+              <option value="Lasaña">Lasaña</option>
+            </select></label
+            >
+            <label>Cantidad <input type="number" name="cantidad_com_3" class="cantidad"></label>
+            <label>3. Precio <input type="number" name="precio_com_3" step="0.01" class="precio"></label>
+            <label
+            >3. Bebida
+            <select name="bebida_3">
+              <option value="Nada">Nada</option>
+              <option value="Jugo de naranja">Jugo de naranja</option>
+              <option value="Jugo de Zanahoria y Naranja">
+                Jugo de Zanahoria y Naranja
+              </option>
+              <option value="Jugo de Zanahoria">Jugo de Zanahoria</option>
+              <option value="Coca-cola">Coca-Cola</option>
+              <option value="Fanta">Fanta</option>
+              <option value="Seven-up">Seven Up</option>
+              <option value="Cafe">Café</option>
+              <option value="Te">Té</option>
+            </select>
+          </label>
+          <label>Cantidad <input type="number" name="cantidad_beb_3" class="cantidad"></label>
+          <label>3. Precio <input type="number" name="precio_beb_3" step="0.01" class="precio"></label>
+        </article>
+        <article class="datos_personales">
+          <label for="nombre"
+            >Nombre del cliente <input
+              type="text"
+              name="nombre"
+              id="nombre" /></label
+          ><br />
+          <label for="apellido" class="label"
+            >Apellido <input type="text" name="apellido" id="apellido" /></label
+          ><br />
+          <label for="fecha"
+            >Fecha <input type="date" name="fecha" id="hora" /></label
+          ><br />
+          <label for="hora" class="label"
+            >Hora <input type="time" name="hora" id="hora"
+          /><br>
+          <label class="label">Teléfono: <input type="number" name="telefono" /></label><br />
+          <label class="label">Dirección: <textarea name="direccion" class="direccion"></textarea></label><br />
+          <label class="label">Tiempo de demora: <input type="text" name="demora" /></label>
+        </article>
+        <div class="datos"></div>
+        <article class="button">
+        <button class="btn">Enviar</button>
+        <button class="btn_factura"><a href="http://localhost/proyecto/factura.html">Factura</a></button></article>
+        <button class="btn_regresar"><a href="http://localhost/proyecto/login/login.html">Regresar</a></button></article>
+        <script src="./js/index.js"></script>
+      </section>
+    </form>
+  </body>
+</html>

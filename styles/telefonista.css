@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background: #264d7e;
+  font-family: "Quicksand", sans-serif;
+}
+
+.titulo_cont {
+  display: inline-block;
+  margin: 0 0 0 200px;
+  width: 700px;
+  box-sizing: border-box;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.logo_cont {
+  display: inline-block;
+}
+
+.titulo {
+  display: inline-block;
+  text-align: center;
+  margin: 10px 0 0 200px;
+  font-size: 52px;
+  color: #fff;
+}
+
+.img {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  transform: translateY(30px) translateX(-170px);
+}
+
+.cont {
+  width: 1100px;
+  background: #456fa4;
+  margin: 10px 0 0 80px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  color: #fef;
+}
+
+.article-cont {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 590px;
+  margin: 0px 0 0 10px;
+  padding: 10px 0 10px 10px;
+}
+
+.datos_personales {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 420px;
+  margin: 0px 0 0 10px;
+  padding: 20px 0 10px 30px;
+}
+
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 500px;
+  margin: 15px 0 0 200px;
+  padding: 10px 0 10px 5px;
+}
+
+.title_cont {
+  margin-top: 10px;
+}
+
+.title {
+  width: 200px;
+  margin: 2px 0 0 450px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.cantidad,
+.precio {
+  width: 43px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.direccion {
+  height: 13px;
+  margin-top: 10px;
+}
+
+.btn,
+.btn_factura,
+.btn_regresar {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn {
+  margin-right: 40px;
+}
+
+.btn:hover,
+.btn_factura,
+.btn_regresar {
+  cursor: pointer;
+}

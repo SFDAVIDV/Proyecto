@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./login-css/login.css" />
+    <link rel="shortcut icon" href="usuario.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="cont">
+      <section class="cont-img">
+        <img class="logo" src="usuario.png" />
+      </section>
+      <form action="./login-php/login.php" method="post">
+        <article class="puesto_cont">
+          <label class="puesto"
+            >Puesto
+            <select class="select" name="puesto">
+              <option class="option" value="telefonista">Telefonista</option>
+              <option class="option" value="cocinero">Cocinero</option>
+              <option class="option" value="gerente">Gerente</option>
+            </select></label
+          >
+        </article>
+        <input
+          class="placeholder_img"
+          type="text"
+          name="user"
+          id="usuario"
+          placeholder="Nombre de Usuario"
+        />
+        <input
+          class="contra-img"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Contraseña"
+        />
+        <button class="btn" type="button">
+          <img src="2.png" class="img" />
+        </button>
+        <script src="./login-js/contra.js"></script>
+        <button class="btn_inicio" name="btn">Iniciar Sesión</button>
+        <button class="registro">
+          <a href="http://localhost/proyecto/login/registro.html"
+            >Registrarse</a
+          >
+        </button>
+      </form>
+    </section>
+  </body>
+</html>
